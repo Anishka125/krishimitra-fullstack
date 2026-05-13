@@ -24,7 +24,7 @@ function App() {
 
         <Route path="/weather" element={<WeatherPage />} />
 
-        <Route path="/ai" element={<AIAssistant />} />
+        <Route path="/ai-assistant" element={<AIAssistant />} />
 
         <Route
           path="/crop-recommendation"
