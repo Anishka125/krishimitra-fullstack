@@ -52,8 +52,10 @@ const DiseaseDetection = () => {
     try {
       const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
+      const genAI = new GoogleGenerativeAI(API_KEY);
+
       const model = genAI.getGenerativeModel({
-        model: "gemini-2.5-flash",
+        model: "gemini-1.5-flash",
       });
 
       const base64Image = await fileToBase64(image);
@@ -169,7 +171,7 @@ Reply only in English.
               <div className="text-center">
                 <AlertTriangle
                   size={80}
-                  className="mx-auto text-yellow-500"
+                  className="mx-auto text-yellow-500 animate-pulse"
                 />
 
                 <h2 className="text-3xl font-bold text-green-800 mt-6">
