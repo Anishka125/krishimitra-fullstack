@@ -16,7 +16,7 @@ import {
 const menuItems = [
   { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
   { name: "Weather", path: "/weather", icon: CloudSun },
-  { name: "AI Assistant", path: "/ai", icon: Bot },
+  { name: "AI Assistant", path: "/ai-assistant", icon: Bot },
   { name: "Crop Recommendation", path: "/crop-recommendation", icon: Leaf },
   { name: "Disease Detection", path: "/disease-detection", icon: Bug },
   { name: "Market Insights", path: "/market-insights", icon: IndianRupee },

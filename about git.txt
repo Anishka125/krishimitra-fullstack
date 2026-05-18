@@ -1,0 +1,8 @@
+git add .
+git commit -m "Added CropDoctor page"
+
+git push
+@yjE$6cX?n+k@nS
+weather api   1b77719f0a16cce94ba115bdb37408bc
+
+gemini  AIzaSyCbNDQtRoSPVft195dT_-GXORvsQlQIQ7A
